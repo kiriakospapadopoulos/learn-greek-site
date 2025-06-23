@@ -52,30 +52,45 @@
     </button>
   </div>
 
-  <!-- Mobile Nav Menu -->
-  <nav id="mobile-menu" class="md:hidden bg-white bg-opacity-95 backdrop-blur-md shadow-xl w-full absolute left-0 top-full hidden flex-col items-center space-y-5 py-6 z-40 animate-fade-in-down">
-    <a href="index.html" class="text-blue-700 font-semibold rounded-lg px-4 py-2 hover:bg-blue-100 transition">Home</a>
-    <a href="resume.html" class="text-blue-700 font-semibold rounded-lg px-4 py-2 hover:bg-blue-100 transition">About Me</a>
-    <a href="contact.html" class="text-blue-700 font-semibold rounded-lg px-4 py-2 hover:bg-blue-100 transition">Contact</a>
-    <a href="greek-influence.html" class="text-blue-700 font-semibold rounded-lg px-4 py-2 hover:bg-blue-100 transition">Greek Influence</a>
-    <a href="courses.html" class="text-blue-700 font-semibold rounded-lg px-4 py-2 hover:bg-blue-100 transition">Courses</a>
-  </nav>
+<!-- Mobile Nav Menu -->
+<nav
+  id="mobile-menu"
+  class="md:hidden flex flex-col bg-white bg-opacity-95 backdrop-blur-md shadow-xl w-full absolute left-0 top-full hidden py-6 z-40 animate-fade-in-down"
+>
+  <a href="index.html" class="text-blue-700 font-semibold px-4 py-2 hover:bg-blue-100 transition w-full text-center menu-item">
+    📚 Home
+  </a>
+  <a href="resume.html" class="text-blue-700 font-semibold px-4 py-2 hover:bg-blue-100 transition w-full text-center menu-item">
+    📚 About Me
+  </a>
+  <a href="contact.html" class="text-blue-700 font-semibold px-4 py-2 hover:bg-blue-100 transition w-full text-center menu-item">
+    📚 Contact
+  </a>
+  <a href="greek-influence.html" class="text-blue-700 font-semibold px-4 py-2 hover:bg-blue-100 transition w-full text-center menu-item">
+    📚 Greek Influence
+  </a>
+  <a href="courses.html" class="text-blue-700 font-semibold px-4 py-2 hover:bg-blue-100 transition w-full text-center menu-item">
+    📚 Courses
+  </a>
+</nav>
 
-  <style>
-    @keyframes fade-in-down {
-      0% {
-        opacity: 0;
-        transform: translateY(-10px);
-      }
-      100% {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-    .animate-fade-in-down {
-      animation: fade-in-down 0.3s ease-out;
-    }
-  </style>
+<style>
+  /* Remove previous ::before bullets */
+  #mobile-menu a.menu-item::before {
+    content: none;
+  }
+
+  /* Make each link have an emoji bullet as inline text (already done in HTML above) */
+
+  /* For better vertical spacing and bullet alignment */
+  #mobile-menu a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px; /* space between bullet and text */
+  }
+</style>
+
 
   <script>
     const menuBtn = document.getElementById('menu-btn');
