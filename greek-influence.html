@@ -19,8 +19,8 @@
       class="text-3xl font-extrabold text-blue-800 select-none cursor-pointer transform transition-transform duration-300 hover:scale-110 hover:text-blue-900"
       tabindex="0"
       role="link"
-      onclick="location.href='index.html'"
-      onkeypress="if(event.key==='Enter') location.href='index.html'"
+      onclick="location.href='home.html'"
+      onkeypress="if(event.key==='Enter') location.href='home.html'"
       aria-label="Go to Home Page"
     >
       Learn Greek
@@ -29,7 +29,7 @@
     <!-- Desktop Nav -->
     <nav class="hidden md:block">
       <ul class="flex space-x-8 text-blue-700 font-semibold">
-        <li><a href="index.html" class="relative group px-2 py-2 hover:text-blue-900 transition-colors duration-300 ease-in-out">Home<span class="absolute left-0 bottom-0 w-0 h-0.5 bg-blue-900 transition-all group-hover:w-full"></span></a></li>
+        <li><a href="home.html" class="relative group px-2 py-2 hover:text-blue-900 transition-colors duration-300 ease-in-out">Home<span class="absolute left-0 bottom-0 w-0 h-0.5 bg-blue-900 transition-all group-hover:w-full"></span></a></li>
         <li><a href="resume.html" class="relative group px-2 py-2 hover:text-blue-900 transition-colors duration-300 ease-in-out">About Me<span class="absolute left-0 bottom-0 w-0 h-0.5 bg-blue-900 transition-all group-hover:w-full"></span></a></li>
         <li><a href="contact.html" class="relative group px-2 py-2 hover:text-blue-900 transition-colors duration-300 ease-in-out">Contact<span class="absolute left-0 bottom-0 w-0 h-0.5 bg-blue-900 transition-all group-hover:w-full"></span></a></li>
         <li><a href="greek-influence.html" class="relative group px-2 py-2 hover:text-blue-900 transition-colors duration-300 ease-in-out">Greek Influence<span class="absolute left-0 bottom-0 w-0 h-0.5 bg-blue-900 transition-all group-hover:w-full"></span></a></li>
@@ -59,7 +59,7 @@
   id="mobile-menu"
   class="md:hidden flex flex-col bg-white bg-opacity-95 backdrop-blur-md shadow-xl w-full absolute left-0 top-full hidden py-6 z-40 animate-fade-in-down"
 >
-  <a href="index.html" class="text-blue-700 font-semibold px-4 py-2 hover:bg-blue-100 transition w-full text-center menu-item">
+  <a href="home.html" class="text-blue-700 font-semibold px-4 py-2 hover:bg-blue-100 transition w-full text-center menu-item">
     📚 Home
   </a>
   <a href="resume.html" class="text-blue-700 font-semibold px-4 py-2 hover:bg-blue-100 transition w-full text-center menu-item">
@@ -128,13 +128,65 @@
 
   <!-- Main Content -->
   <main class="container mx-auto px-6 py-12 flex-grow">
-    <section class="text-center mb-12">
-      <h2 class="text-4xl font-extrabold mb-4">Greek Influence on Global Languages</h2>
-      <p class="text-lg max-w-2xl mx-auto">
-        Over <span class="font-bold text-blue-900">150,000 words</span> in modern languages are derived from Greek.  
-        Greek has shaped the vocabulary of science, medicine, philosophy, politics, and more.
+
+      <h2 class="text-4xl md:text-5xl font-extrabold mb-6">
+        Greek: The Foundation of Global Thought
+      </h2>
+
+
+    <section class="mt-20 max-w-5xl mx-auto text-left">
+      <h3 class="text-3xl md:text-4xl font-bold mb-8 text-center">
+       
+      </h3>
+
+      <p class="text-blue-700 text-lg leading-relaxed mb-6">
+        Greek occupies a unique position among the languages of the world.
+        It did not simply evolve to name objects or everyday experiences;
+        it developed in order to define <strong>ideas</strong>.
+        At a decisive moment in human history, Greek thinkers sought not only
+        to describe reality, but to understand it, analyze it, and express it
+        with precision. The Greek language thus became the primary instrument
+        through which abstract thought was first systematically articulated.
+      </p>
+
+      <p class="text-blue-700 text-lg leading-relaxed mb-6">
+        Fundamental concepts that continue to shape global intellectual life
+        were formed in Greek.
+        Terms such as <em>democracy, logic, ethics, theory, method, harmony,
+        cosmos, and analysis</em> are not later inventions or convenient labels.
+        They are Greek creations, born alongside the ideas they express.
+        These words emerged because Greek philosophy, science, and political
+        thought required a language capable of nuance, structure, and rational inquiry.
+      </p>
+
+      <p class="text-blue-700 text-lg leading-relaxed">
+        The influence of Greek extends far beyond antiquity.
+        Today, more than <strong>40 modern languages</strong> rely on Greek roots
+        to convey meaning in medicine, science, philosophy, theology,
+        and academic discourse.
+        To study Greek, therefore, is not merely to learn another language;
+        it is to engage with the linguistic foundation of Western thought itself —
+        the language that taught the world how to think.
       </p>
     </section>
+    <br/>
+    <br/>
+    
+    <section class="text-center mb-16">
+
+      <p class="text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
+        Greek is not merely one language among many — it is the
+        <strong class="text-blue-900">intellectual backbone of Western civilization</strong>.
+        From democracy and philosophy to medicine, astronomy, and modern science,
+        Greek vocabulary forms the conceptual framework through which the modern world thinks, studies, and innovates.
+      </p>
+
+      <p class="mt-6 text-blue-800 max-w-3xl mx-auto">
+        More than <strong>150,000 scientific, academic, and technical terms</strong>
+        used globally today are built directly from Ancient and Medieval Greek roots.
+      </p>
+    </section>
+
 
     <!-- Word Examples Grid -->
     <div class="grid md:grid-cols-2 gap-10">
@@ -142,99 +194,175 @@
       <!-- English -->
       <div class="bg-white rounded-3xl shadow-xl p-8 hover:scale-105 transition-transform duration-500">
         <h3 class="text-2xl font-semibold mb-4">🇬🇧 English</h3>
-        <ul class="list-disc list-inside text-blue-700 space-y-1">
-          <li><strong>Democracy</strong> (δημοκρατία)</li>
-          <li><strong>Philosophy</strong> (φιλοσοφία)</li>
-          <li><strong>Biology</strong> (βιολογία)</li>
+        <p class="mb-4 text-blue-700">
+          English scientific and academic vocabulary is overwhelmingly Greek in origin,
+          especially in philosophy, politics, medicine, and biology.
+        </p>
+        <ul class="list-disc list-inside text-blue-700 space-y-2">
+          <li><strong>Democracy</strong> ← δημοκρατία (δῆμος + κράτος)</li>
+          <li><strong>Philosophy</strong> ← φιλοσοφία (“love of wisdom”)</li>
+          <li><strong>Biology</strong> ← βίος + λόγος</li>
+          <li><strong>Physics</strong> ← φύσις</li>
+          <li><strong>Ethics</strong> ← ἦθος</li>
         </ul>
       </div>
 
       <!-- French -->
       <div class="bg-white rounded-3xl shadow-xl p-8 hover:scale-105 transition-transform duration-500">
         <h3 class="text-2xl font-semibold mb-4">🇫🇷 French</h3>
-        <ul class="list-disc list-inside text-blue-700 space-y-1">
-          <li><strong>Académie</strong> (ακαδημία)</li>
-          <li><strong>Théâtre</strong> (θέατρο)</li>
-          <li><strong>Psychologie</strong> (ψυχολογία)</li>
+        <p class="mb-4 text-blue-700">
+          French absorbed Greek vocabulary through Latin, medieval universities,
+          and the scientific revolution.
+        </p>
+        <ul class="list-disc list-inside text-blue-700 space-y-2">
+          <li><strong>Académie</strong> ← Ἀκαδημία (Plato’s school)</li>
+          <li><strong>Théâtre</strong> ← θέατρον</li>
+          <li><strong>Psychologie</strong> ← ψυχή + λόγος</li>
+          <li><strong>Analyse</strong> ← ἀνάλυσις</li>
         </ul>
       </div>
+
 
       <!-- Spanish -->
       <div class="bg-white rounded-3xl shadow-xl p-8 hover:scale-105 transition-transform duration-500">
         <h3 class="text-2xl font-semibold mb-4">🇪🇸 Spanish</h3>
-        <ul class="list-disc list-inside text-blue-700 space-y-1">
-          <li><strong>Escuela</strong> (σχολή)</li>
-          <li><strong>Problema</strong> (πρόβλημα)</li>
-          <li><strong>Idea</strong> (ιδέα)</li>
+        <p class="mb-4 text-blue-700">
+          Many Greek words entered Spanish through Roman administration,
+          early Christianity, and Byzantine scholarship.
+        </p>
+        <ul class="list-disc list-inside text-blue-700 space-y-2">
+          <li><strong>Escuela</strong> ← σχολή</li>
+          <li><strong>Idea</strong> ← ἰδέα</li>
+          <li><strong>Problema</strong> ← πρόβλημα</li>
+          <li><strong>Historia</strong> ← ἱστορία</li>
         </ul>
       </div>
+
 
       <!-- German -->
       <div class="bg-white rounded-3xl shadow-xl p-8 hover:scale-105 transition-transform duration-500">
         <h3 class="text-2xl font-semibold mb-4">🇩🇪 German</h3>
-        <ul class="list-disc list-inside text-blue-700 space-y-1">
-          <li><strong>Analyse</strong> (ανάλυση)</li>
-          <li><strong>System</strong> (σύστημα)</li>
-          <li><strong>Logik</strong> (λογική)</li>
-        </ul>
-      </div>
-    </div>
+        <p class="mb-4 text-blue-700">
+          German academic language preserves Greek precision,
+          especially in philosophy, logic, and medicine.
+        </p>
+        <ul class="list-disc list-inside text-blue-700 space-y-2">
+          <li><strong>Logik</strong> ← λογική</li>
+          <li><strong>System</strong> ← σύστημα</li>
+          <li><strong>Analyse</strong> ← ἀνάλυσις</li>
+          <li><strong>Klinik</strong> ← κλινική</li>
+  </ul>
+</div>
 
-    <!-- Global Impact -->
-    <section class="mt-16 text-center">
-      <h3 class="text-3xl font-bold mb-4">A Global Legacy</h3>
-      <p class="text-blue-700 max-w-3xl mx-auto text-lg">
-        Greek is not just a historical language — it is a living foundation for global vocabulary.  
-        Over <strong>40 modern languages</strong> have adopted Greek roots in scientific, academic, and philosophical terms.
-        The language of Plato, Aristotle, and Hippocrates continues to shape thought and communication in the 21st century.
-      </p>
-    </section>
+
   </main>
 
-  <!-- Footer -->
-<footer class="bg-blue-700 text-white text-center py-6 mt-auto shadow-inner select-text">
-  <div class="container mx-auto flex justify-center space-x-8">
-    <!-- Email -->
-    <a href="mailto:info@learn-greek.com" 
-       class="flex items-center gap-2 hover:text-blue-300 transition-colors duration-300" 
-       aria-label="Email">
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" 
-           viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-        <path stroke-linecap="round" stroke-linejoin="round" 
-              d="M16 12H8m8-4H8m8 8H8m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-      </svg>
-      <span class="hidden sm:inline">info@learn-greek.com</span>
-    </a>
+<!-- Footer -->
+<footer class="relative mt-auto bg-gradient-to-r from-blue-800 via-blue-700 to-blue-800 text-white overflow-hidden">
 
-    <!-- Facebook -->
-    <a href="https://www.facebook.com/yourfacebookprofile" target="_blank" rel="noopener noreferrer" 
-       class="flex items-center gap-2 hover:text-blue-300 transition-colors duration-300" 
-       aria-label="Facebook">
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" 
-           viewBox="0 0 24 24">
-        <path d="M22.675 0h-21.35C.594 0 0 .593 0 1.326v21.348C0 23.406.594 24 1.325 24H12.82v-9.294H9.692v-3.622h3.127V8.413c0-3.1 
-          1.894-4.788 4.659-4.788 1.325 0 2.464.098 2.797.142v3.24h-1.918c-1.504 0-1.796.715-1.796 1.763v2.312h3.587l-.467 
-          3.622h-3.12V24h6.116C23.406 24 24 23.406 24 22.674V1.326C24 .593 23.406 0 22.675 0z"/>
-      </svg>
-      <span class="hidden sm:inline">Facebook</span>
-    </a>
+  <!-- Top Greek wave line -->
+  <div class="absolute top-0 left-0 w-full h-[2px]
+              bg-gradient-to-r from-transparent via-white/60 to-transparent"></div>
 
-    <!-- Instagram -->
-    <a href="https://www.instagram.com/yourinstagramprofile" target="_blank" rel="noopener noreferrer" 
-       class="flex items-center gap-2 hover:text-blue-300 transition-colors duration-300" 
-       aria-label="Instagram">
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" 
-           viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-        <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
-        <path stroke-linecap="round" stroke-linejoin="round" d="M16 11.37a4 4 0 11-4.73-4.73 4 4 0 014.73 4.73z" />
-        <line stroke-linecap="round" stroke-linejoin="round" x1="17.5" y1="6.5" x2="17.5" y2="6.5" />
-      </svg>
-      <span class="hidden sm:inline">Instagram</span>
-    </a>
+  <!-- Subtle moving wave background (no dots) -->
+  <div class="absolute inset-0 opacity-10 bg-[linear-gradient(
+        120deg,
+        transparent 40%,
+        rgba(255,255,255,0.15) 50%,
+        transparent 60%
+      )]
+      bg-[length:200%_100%] animate-[wave_8s_linear_infinite]">
   </div>
 
-  <p class="mt-4 text-sm select-text">&copy; 2025 Learn Greek. All rights reserved.</p>
+  <style>
+    @keyframes wave {
+      0% { background-position: 0% 0; }
+      100% { background-position: 200% 0; }
+    }
+  </style>
+
+  <div class="relative container mx-auto py-6 px-6 text-center">
+
+    <!-- Quote -->
+    <p class="mb-5 text-sm italic text-blue-100 tracking-wide">
+      «Η γλώσσα κυλά σαν κύμα και μεταφέρει τη γνώση.»
+      <span class="not-italic opacity-80">
+        — Language flows like a wave and carries knowledge
+      </span>
+    </p>
+
+    <!-- Icons -->
+    <div class="flex justify-center gap-8">
+
+      <!-- Email -->
+      <a href="mailto:info@learn-greek.com"
+         class="group flex flex-col items-center gap-1 transition-transform duration-500 hover:-translate-y-1.5"
+         aria-label="Email">
+        <div class="p-2.5 rounded-full bg-white/10 backdrop-blur-md shadow
+                    group-hover:bg-white/20 transition-all duration-500">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white group-hover:rotate-6 transition-transform duration-500"
+               fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M16 12H8m8-4H8m8 8H8m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+          </svg>
+        </div>
+        <span class="text-[11px] opacity-80 group-hover:opacity-100 transition">
+          info@learn-greek.com
+        </span>
+      </a>
+
+      <!-- Facebook -->
+      <a href="https://www.facebook.com/yourfacebookprofile" target="_blank" rel="noopener noreferrer"
+         class="group flex flex-col items-center gap-1 transition-transform duration-500 hover:-translate-y-1.5"
+         aria-label="Facebook">
+        <div class="p-2.5 rounded-full bg-white/10 backdrop-blur-md shadow
+                    group-hover:bg-white/20 transition-all duration-500">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current text-white
+                      group-hover:scale-110 transition-transform duration-500"
+               viewBox="0 0 24 24">
+            <path d="M22.675 0h-21.35C.594 0 0 .593 0 1.326v21.348C0 23.406.594 24 1.325 24H12.82v-9.294H9.692v-3.622h3.127V8.413c0-3.1
+              1.894-4.788 4.659-4.788 1.325 0 2.464.098 2.797.142v3.24h-1.918c-1.504 0-1.796.715-1.796 1.763v2.312h3.587l-.467
+              3.622h-3.12V24h6.116C23.406 24 24 23.406 24 22.674V1.326C24 .593 23.406 0 22.675 0z"/>
+          </svg>
+        </div>
+        <span class="text-[11px] opacity-80 group-hover:opacity-100 transition">
+          Facebook
+        </span>
+      </a>
+
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/yourinstagramprofile" target="_blank" rel="noopener noreferrer"
+         class="group flex flex-col items-center gap-1 transition-transform duration-500 hover:-translate-y-1.5"
+         aria-label="Instagram">
+        <div class="p-2.5 rounded-full bg-white/10 backdrop-blur-md shadow
+                    group-hover:bg-white/20 transition-all duration-500">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white
+                      group-hover:rotate-12 transition-transform duration-500"
+               fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+            <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M16 11.37a4 4 0 11-4.73-4.73 4 4 0 014.73 4.73z"/>
+            <line stroke-linecap="round" stroke-linejoin="round"
+                  x1="17.5" y1="6.5" x2="17.5" y2="6.5"/>
+          </svg>
+        </div>
+        <span class="text-[11px] opacity-80 group-hover:opacity-100 transition">
+          Instagram
+        </span>
+      </a>
+
+    </div>
+
+    <!-- Divider -->
+    <div class="mt-6 mb-3 h-px bg-gradient-to-r from-transparent via-white/30 to-transparent"></div>
+
+    <!-- Copyright -->
+    <p class="text-[11px] text-blue-100 tracking-wide">
+      © 2025 Learn Greek · Hellenic Language & Culture
+    </p>
+  </div>
 </footer>
+
 
 </body>
 </html>
